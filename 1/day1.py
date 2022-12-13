@@ -1,13 +1,9 @@
 #AdvoOfCode2022 1
 
-from urllib.request import urlopen
 import pandas as pd
-
-
 
 if __name__ == '__main__':
 
-    #df = pd.read_table("input.txt", header=None, lineterminator='\n')#, sep='\s+')
     data = open('input.txt', 'r')
 
     map = {}
